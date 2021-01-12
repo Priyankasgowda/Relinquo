@@ -7,10 +7,11 @@ It is built using Django REST framework and jQuery.
 
 ## Core Developers
 
+- [Priyanka](priyankasgowda3@gmail.com)
 - [Khushboo](khushboobhushan611@gmail.com)
 - [Bhoomika](bhoomika97@gmail.com)
 - [Supraja](supraja.prasad23@gmail.com)
-- [Priyanka](priyankasgowda3@gmail.com)
+
 
 ---
 ## Geting Started 
@@ -22,7 +23,7 @@ It is built using Django REST framework and jQuery.
 
 -Clone the project by running 
 ```
-	git clone https://gitlab.com/bhoomikamadhukar/relinquo.git
+	
 ```
 
 ## Installing 
