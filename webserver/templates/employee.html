@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>EMPLOYEE LEAVE</title>
+		<link rel="stylesheet" href="https://bootswatch.com/4/cosmo/bootstrap.min.css" crossorigin="anonymous">
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<script>
+			function logout(){
+				window.localStorage.removeItem("token");
+				window.location = "/";
+			}
+			function homepage(){
+				
+				window.location = "/";
+			}
+		</script>
+		
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container">
+				<a class="navbar-brand" href="#">Relinquo</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					
+						<ul class="navbar-nav ml-auto">
+						<li class="nav-item active">
+							<a class="nav-link" href="#" onclick="homepage()">Home <span class="sr-only">(current)</span></a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#" onclick="logout()">Logout</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav><br><br><br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					
+				 <form class="form">
+             
+            <br>
+            <br>
+                <h4>APPLY LEAVE REQUEST</h4>
+            <br>           
+            <div class="form-group">
+                <input class="form-control" type="date" placeholder="date" id="date">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="duration" placeholder="Duration" id="duration">
+            </div>
+            <div class="form-group">
+                <input class="form-control" type="text" placeholder="Reason for Leave" id="reason">
+            </div>
+            <div class="form-group">
+                <button class="btn btn-md btn-success" id="submit">Submit</button>
+
+            </div>
+           </form>
+
+
+			</div>
+		
+		<script src="https://code.jquery.com/jquery-3.4.0.min.js"></script>
+		<script type="text/javascript" src="/static/js/employee.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		
+	</body>
+</html>
